@@ -4,9 +4,7 @@ class('FontSample').extends()
 
 local _font = nil
 
-function FontSample.getFont()	
-	FontSample.super.init(self)
-
+function FontSample.getFont()
 	if _font == nil then
 		_font = playdate.graphics.font.new('toybox_assets/github.com/DidierMalenfant/FontSample/ammolite_10')
 	end
@@ -15,6 +13,6 @@ function FontSample.getFont()
 	return _font
 end
 
-function FontSample:setFont()	
+function FontSample.setFont()
 	playdate.graphics.setFont(FontSample:getFont())
 end
