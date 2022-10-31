@@ -1,6 +1,10 @@
 import 'CoreLibs/object'
 
-class('FontSample').extends()
+dm = dm or {}
+
+class('FontSample', { }, dm).extends()
+
+local FontSample <const> = dm.FontSample
 
 local _font = nil
 

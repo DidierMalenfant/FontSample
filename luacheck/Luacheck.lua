@@ -10,18 +10,22 @@
 
 return {
     globals = {
-        FontSample = {
+        dm = {
             fields = {
-                super = {
+                FontSample = {
                     fields = {
+                        super = {
+                            fields = {
+                                className = {},
+                                init = {}
+                            }
+                        },
                         className = {},
-                        init = {}
+                        init = {},
+                        getFont = {},
+                        setFont = {}
                     }
-                },
-                className = {},
-                init = {},
-                getFont = {},
-                setFont = {}
+                }
             }
         }
     }

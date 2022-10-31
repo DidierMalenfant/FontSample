@@ -22,12 +22,12 @@ This **toybox** contains **assets** toys for you to play with.
 
 To use the font, just use the `setFont` method and then just write something:
 ```lua
-FontSample.setFont()
+dm.FontSample.setFont()
 
 playdate.graphics.drawText("Hello World!", 10, 10)
 ```
 
 In case you need to access the Playdate font directly, you can use `getFont`:
 ```lua
-FontSample.getFont()
+dm.FontSample.getFont()
 ```
