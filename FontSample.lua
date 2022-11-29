@@ -10,7 +10,7 @@ local _font = nil
 
 function FontSample.getFont()
 	if _font == nil then
-		_font = playdate.graphics.font.new('toybox_assets/github.com/DidierMalenfant/FontSample/ammolite_10')
+		_font = playdate.graphics.font.new('toybox_assets/github-dot-com/DidierMalenfant/FontSample/ammolite_10')
 	end
 
 	assert(_font, 'FontSample: Error loading font.')
